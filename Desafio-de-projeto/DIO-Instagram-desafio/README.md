@@ -1,1 +1,0 @@
-# Desafio de projeto DIO para recriar a página inicial do Instagram
