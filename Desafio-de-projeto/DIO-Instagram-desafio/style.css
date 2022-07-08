@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    background-color: #FAF9F6;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(#243, #243, #243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.insta-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    width: 350px;
+}
+
+.caixa-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    width: 350px;
+    height: 350px;
+}
+
+.caixa-login:nth-child(){
+    min-height: 19rem;
+}
+
+.insta-phone{
+    margin: 0;
+}
+
+.insta-logo{
+    height: 51px;
+    width: 175px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.foto-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.foto-perfil img{
+    border: solid 1px #efefef;
+    border-radius: 100px;
+    display: block;
+    height: 100px;
+    margin: 10px auto 10px;
+    width: 100px;
+}
+
+.btn-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.texto-padrao{
+    background-color: #ffffff;
+}
+
+.style-btn{
+    color: #0095f6;
+    margin-top: 1rem;
+    background-color: #ffffff;
+}
+
+/* NOVA CONTA */
+
+.insta-nova-conta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    width: 350px;
+    justify-content: center;
+}
+
+.login-face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #ffffff;
+    display: flex;
+}
+
+.login-face img{
+    height: 1rem;
+}
+
+.texto-face{
+    color: #3b5998;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.esqueceu-senha{
+    color: #3b5998;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-conect{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 28px;
+    width: 270px;
+}
+
+.OU{
+    background: #ffffff;
+    color: rgb(160, 160, 160);
+}
+
+.caixa-nova-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 390px;
+    margin-bottom: 10px;
+}
+
+.caixa-nova-conta img{
+    margin-top: 10px;
+}
+
+.caixa-sem-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    min-width: 350px;
+    margin-top: 0,4px;
+}
+
+input{
+    height: 38px;
+    border: 1.5px solid #262626;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    opacity: 0.3;
+    width: 270px;
+    border-radius: 3%;
+    font-size: 12px;
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 270px;
+}
+
+.input-senha{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 270px;
+}
+
+.btn-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.btn-app img{
+    display: block;
+    height: 40px;
+    margin: 10px auto 10px;
+    width: 130px;
+    align-items: center;
+}
+
+.caixa-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    max-width: 350px;
+    margin-top: 0,5px;
+}
+
+.texto-app{
+    margin-bottom: 10px;
+}
+
+/* Mobile */
+
+@media (max-width: 875px) {
+    .insta-pagina {
+        width: 90%;
+    }
+
+    .caixa-login{
+        width: 350px;
+        margin-bottom: 180px;
+    }
+
+    .insta-phone{
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: #FAF9F6;
+    }
+
+    .insta-pagina {
+        width: 90%;
+    }
+
+    .insta-phone {
+        display: none;
+    }
+
+    .insta-login {
+        width: 100%;
+    }
+
+    .insta-logo{
+        background-color: #FAF9F6;
+    }
+
+    .foto-perfil{
+        background-color: #FAF9F6;
+    }
+
+    .texto-padrao{
+        background-color: #FAF9F6;
+    }
+
+    .style-btn{
+        background-color: #FAF9F6;
+    }
+    
+    .caixa-login {
+        border: 1px solid transparent;
+        background-color: #FAF9F6;
+    }
+
+    .insta-nova-conta{
+        width: 100%;
+        height: 95%;
+    }
+
+    .caixa-nova-conta {
+        border: 1px solid transparent;
+        background-color: #FAF9F6;
+    }
+
+    .caixa-sem-conta{
+        border: 1px solid transparent;
+        background-color: #FAF9F6;
+    }
+}
